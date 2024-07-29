@@ -1,1 +1,3 @@
-# HealthMonitor
+We have a dataset comprising 19,000 samples gathered from motion sensors, capturing 81 different features. The data includes missing values (NA) and occasional outliers, necessitating data cleaning and preprocessing methods for handling these issues.
+
+To extract key features for classification and ailment detection, we explored various dimensionality reduction techniques: Principal Component Analysis (PCA), Linear Discriminant Analysis (LDA), and Naive Bayes. By evaluating variance, we reduced the dataset to two-dimensional data using PCA. Our analysis focused on comparing the discriminative power of the first and second principal components versus the fifth and sixth. The findings underscored that the initial principal components are more effective in distinguishing between features compared to their later counterparts.
